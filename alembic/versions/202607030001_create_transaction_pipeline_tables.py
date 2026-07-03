@@ -22,6 +22,7 @@ job_status = postgresql.ENUM(
     "completed",
     "failed",
     name="job_status",
+    create_type=False,
 )
 
 
